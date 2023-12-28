@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class App {
+public class NumerosImpares {
     public static void main(String[] args) throws Exception {
-
         Scanner sc = new Scanner(System.in);
         int elementos_lista; // quantidade de elementos da lista
         
@@ -19,18 +18,23 @@ public class App {
             array_numeros.add(aux_num);
         }
         System.out.println(array_numeros);
-        CalculaMedia(array_numeros);
 
+        PrintaImpares(array_numeros);
 
     }
-    public static void CalculaMedia(ArrayList<Double> array){
+
+    public static void PrintaImpares(ArrayList<Double> array){
         double media = 0;//obrigado a inicializar a variavel
-        
-        for (Double numero : array){
-            media += numero;
+        System.out.println("Os números impares são: ");
+        for (double numero : array) {
+            if (numero % 2 != 0) {
+                System.out.print(numero+ " \n");
+            }
 
-        }
-        media /= array.size();
-        System.out.println("A média é: "+media);
+
+       
     }
+}
+    
+
 }
