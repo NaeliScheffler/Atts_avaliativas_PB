@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Palindromo {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite uma string: ");
-        String palavra = scanner.nextLine();
+        String palavra = sc.nextLine();
 
         boolean ehPalindromo = true;
 

@@ -24,7 +24,7 @@ public class NumerosImpares {
     }
 
     public static void PrintaImpares(ArrayList<Double> array){
-        double media = 0;//obrigado a inicializar a variavel
+        
         System.out.println("Os números impares são: ");
         for (double numero : array) {
             if (numero % 2 != 0) {
