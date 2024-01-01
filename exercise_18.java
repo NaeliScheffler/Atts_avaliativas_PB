@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class exercise_18 {
 
 	public static void main(String[] args) {
-		Locale.setDefault(Locale.UK);
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
 		Vector<Integer> vec = new Vector<Integer>();
@@ -22,7 +22,7 @@ public class exercise_18 {
 			vec.add(num);
 			System.out.println("");
 			//quantidade de valores para o vetor/ param ao inserir 'n'
-			System.out.println("digite 'n' para encerrar o programa ou entre outro caractere para continuar!");
+			System.out.println("digite 'n' para encerrar o programa ou entre outro caractere para continuar! ");
 			answer = sc.next().charAt(0);
 			System.out.println("");
 		} while (answer != 'n');
