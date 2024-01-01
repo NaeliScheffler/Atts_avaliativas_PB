@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class exercise_16 {
 
 	public static void main(String[] args) {
-		Locale.setDefault(Locale.UK);
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
 		int cont = 0;
