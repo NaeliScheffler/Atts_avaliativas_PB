@@ -1,16 +1,16 @@
 package application;
+
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.regex.Pattern;
-//TODO: Ver na daily
 
-public class exercise_15 { 
+public class exercise_15 {
 
 	static void countCharacter(String str, char c1) {
 		int cont = 0;
 
 		// trim = removendo whitespaces
-		int n = str.trim().lenght();
+		int n = str.trim().length();
 		boolean b = Character.isLetter(c1);
 		String trimmedStr = str.trim();
 		// passando string para array de char
@@ -31,7 +31,7 @@ public class exercise_15 {
 				System.out.println("outros caracteres dectados");
 			}
 		} else {
-			system.out.println("String vazia");
+			System.out.println("String vazia");
 		}
 	}
 
@@ -54,3 +54,4 @@ public class exercise_15 {
 	}
 
 }
+
