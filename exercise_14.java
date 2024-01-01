@@ -14,9 +14,10 @@ public class exercise_14 {
 		System.out.println("Entre o exponente da potencia: ");
 		double exponent = sc.nextFloat();
 //usando math.pow para o calculo potencia
-		double result = Math.pow(base, exponent);
+		
+		double res = Math.pow(base, exponent);
 
-		System.out.printf("%.2f%n", result);
+		System.out.printf("%.2f%n", res);
 
 		sc.close();
 	}
