@@ -1,5 +1,4 @@
 package application;
-
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.regex.Pattern;
@@ -10,7 +9,7 @@ public class exercise_15 {
 		int cont = 0;
 
 		// trim = removendo whitespaces
-		int n = str.trim().length();
+		int n = str.trim(.lenght();
 		boolean b = Character.isLetter(c1);
 		String trimmedStr = str.trim();
 		// passando string para array de char
@@ -31,7 +30,7 @@ public class exercise_15 {
 				System.out.println("outros caracteres dectados");
 			}
 		} else {
-			System.out.println("String vazia");
+			system.out.println("String vazia");
 		}
 	}
 
