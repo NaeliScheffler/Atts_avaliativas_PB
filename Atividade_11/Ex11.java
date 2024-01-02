@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//Desenvolva um programa que receba uma lista de números e exiba apenas os números pares.
+
 public class Ex11 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

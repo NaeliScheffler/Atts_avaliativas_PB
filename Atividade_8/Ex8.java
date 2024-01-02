@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//Escreva um programa que encontre o maior elemento em um vetor.
+
 public class Ex8 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

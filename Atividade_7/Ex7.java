@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*Desenvolva um programa que calcule a média de uma lista de
+números fornecidos pelo usuário.
+*/
+
 public class Ex7 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

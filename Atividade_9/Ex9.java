@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//Implemente um programa que determine se um número é primo.
+
 public class Ex9 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//Elabore um programa que realize a ordenação crescente de um vetor.
+
 public class Ex12 {
 
     public static void main(String[] args) {
