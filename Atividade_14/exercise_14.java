@@ -3,6 +3,8 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
+//Escreva um programa que calcule a potência de um número.
+
 public class exercise_14 {
 
 	public static void main(String[] args) {

@@ -3,6 +3,9 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
+//.Desenvolva um programa que calcule a média ponderada de três
+//notas.
+
 public class exercise_16 {
 
 	public static void main(String[] args) {

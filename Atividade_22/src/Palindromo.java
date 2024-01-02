@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Elabore um programa que verifique se uma string é um palíndromo.
 public class Palindromo {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
@@ -13,6 +13,7 @@ public class Palindromo {
             if (palavra.charAt(i) != palavra.charAt(palavra.length() - 1 - i)) { //o -1 para pegar o ultimo da lista, por causa da indexação da string começar em 0
                 ehPalindromo = false;
                 break;
+                
             }
         }
 

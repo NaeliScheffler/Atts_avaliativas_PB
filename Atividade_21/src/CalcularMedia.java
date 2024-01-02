@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+//.Desenvolva um programa que calcule a média aritmética de uma lista
+//de números.
 
 public class CalcularMedia {
     public static void main(String[] args) throws Exception {

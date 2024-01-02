@@ -3,6 +3,8 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
+//Elabore um programa que remova os espaços em branco de uma
+//string.
 
 public class exercise_17 {
 

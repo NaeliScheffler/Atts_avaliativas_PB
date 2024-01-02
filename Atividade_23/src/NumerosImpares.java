@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+// Implemente um programa que leia uma lista de números e exiba
+//apenas os números ímpares.
 public class NumerosImpares {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);

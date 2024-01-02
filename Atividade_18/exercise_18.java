@@ -5,6 +5,9 @@ import java.util.Vector;
 import java.util.Locale;
 import java.util.Scanner;
 
+//Implemente um programa que encontre o menor elemento em um
+//vetor.
+
 public class exercise_18 {
 
 	public static void main(String[] args) {

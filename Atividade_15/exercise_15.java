@@ -4,6 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+//Crie um programa que conte o número de vezes que uma
+//determinada letra aparece em uma string
+
 public class exercise_15 {
 
 	static void countCharacter(String str, char c1) {

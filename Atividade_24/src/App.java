@@ -1,4 +1,6 @@
 import java.util.Scanner;
+//.Escreva um programa que calcule a soma dos dígitos de um número
+//inteiro.
 
 public class App {
     public static void main(String[] args) throws Exception {
