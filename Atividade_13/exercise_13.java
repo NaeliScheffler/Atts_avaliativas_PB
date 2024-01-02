@@ -5,6 +5,9 @@ import java.util.regex.Pattern;
 
 import java.util.Scanner;
 
+//.Implemente um programa que leia uma string e substitua todas as
+//ocorrências de uma letra especificada por outra.
+
 public class exercise_13 {
 
 	// Funcao para substituir todas as ocorrencias
