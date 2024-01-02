@@ -12,5 +12,6 @@ public class Ex10 {
 
         System.out.printf("Raiz quadrada de %d = %.2f\n", numero, raizQuadrada);
         
+        
     }
 }

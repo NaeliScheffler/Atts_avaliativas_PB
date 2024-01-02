@@ -18,7 +18,7 @@ public class Ex7 {
 
         media = media / tam;
 
-        System.out.println("Media dos valores = " + media);
+        System.out.println("Media dos valores = " + media); // a
 
     }
 }

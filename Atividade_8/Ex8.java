@@ -12,6 +12,7 @@ public class Ex8 {
                 maior = vetor[i];
             }
         }
-        System.out.println("Maior valor dentro do vetor = " + maior);
+        
+        System.out.println("Maior valor dentro do vetor = " + maior);  
     }
 }
